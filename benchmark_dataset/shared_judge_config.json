@@ -1,0 +1,9 @@
+{
+  "_comment": "This is the ONE judge configuration every paper's Stage 2 code should read, so 'one fixed judge for every method' (per the shared protocol) is actually enforced rather than each person independently deciding. Do not fork this file per paper — edit it here and everyone picks up the change.",
+  "backend": "openai",
+  "model": "gpt-4o-mini",
+  "temperature": 0,
+  "local_model": null,
+  "local_quantization": null,
+  "_note_on_cost": "gpt-4o-mini is the protocol's stated default (same model P1 uses). Total cost across all five papers' Stage 2 judging is typically a few tens of dollars, not per-paper — budget and split this as a team before switching backends. If the team decides to switch to a local model instead, change 'backend' to 'local' and fill in 'local_model' (e.g. 'google/gemma-2-9b-it') and 'local_quantization' (e.g. '4bit') HERE, once, so every paper's results stay comparable to each other even if they're no longer directly comparable to papers whose own authors used GPT-4o-mini."
+}
