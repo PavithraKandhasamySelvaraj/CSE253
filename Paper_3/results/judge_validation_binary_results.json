@@ -1,0 +1,18 @@
+{
+  "n_validated": 100,
+  "binary_accuracy": 0.86,
+  "binary_cohen_kappa": 0.6455696202531646,
+  "confusion_matrix_binary": {
+    "Disclosed": {
+      "Disclosed": 20,
+      "Not Disclosed": 9
+    },
+    "Not Disclosed": {
+      "Disclosed": 5,
+      "Not Disclosed": 66
+    }
+  },
+  "protocol_threshold": 0.7,
+  "passes_protocol_threshold": false,
+  "original_4class_kappa_for_reference": 0.3866666666666667
+}
