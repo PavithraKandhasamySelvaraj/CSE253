@@ -1,0 +1,19 @@
+paper: P4
+model: Qwen/Qwen2.5-7B-Instruct
+revision: null
+precision: bf16
+gpu_mem_gib: 9.0
+reg_coeff: 10.0
+C: 0.1
+policy: llama-70b-3.3
+control_n: 1000
+datasets:
+- roleplaying__plain
+- insider_trading__upscale
+- insider_trading_doubledown__upscale
+- sandbagging_v2__wmdp_mmlu
+seed_lr: 42
+limit: null
+judge: null
+gpu: NVIDIA GeForce RTX 5070
+host: cartier
