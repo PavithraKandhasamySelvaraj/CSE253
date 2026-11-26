@@ -1,0 +1,18 @@
+# torch: install separately from the cu128 index (RTX 50-series needs CUDA 12.8 wheels)
+transformers>=4.46
+accelerate
+bitsandbytes
+scikit-learn
+pandas
+numpy
+pyyaml
+tqdm
+openai
+datasets
+huggingface_hub
+# needed to import Apollo's dataset loaders
+fire
+jaxtyping
+einops
+python-dotenv
+peft
