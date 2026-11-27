@@ -13,7 +13,7 @@ from collections.abc import Iterator
 
 import torch
 
-from src.common.chat import encode, model_family
+from src.common.chat import encode, family_pad, model_family
 
 
 class _Stop(Exception):
@@ -51,7 +51,8 @@ def iter_acts(model, tok, items, layers: list[int], pad=None, max_length: int | 
     dev = next(base.parameters()).device
     try:
         for i, it in enumerate(tqdm(items, desc=desc)):
-            enc = encode(tok, it.segments, fam, pad, max_length)
+            item_pad = pad if pad is not None else family_pad(fam, it.llama_pad)
+            enc = encode(tok, it.segments, fam, item_pad, max_length)
             if not enc.detect_mask.any():
                 yield i, None
                 continue

@@ -30,4 +30,15 @@ def load(model_name: str, precision: str = "bf16", gpu_mem_gib: float | None = N
 
 
 def resolved_revision(model) -> str | None:
-    return getattr(model.config, "_commit_hash", None)
+    commit = getattr(model.config, "_commit_hash", None)
+    if commit:
+        return commit
+    # Some transformers versions leave _commit_hash unset; the cached snapshot dir is the hash.
+    from pathlib import Path
+
+    from huggingface_hub import snapshot_download
+
+    try:
+        return Path(snapshot_download(model.config._name_or_path, local_files_only=True)).name
+    except Exception:
+        return None

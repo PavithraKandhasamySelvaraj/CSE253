@@ -1,6 +1,6 @@
 paper: P4
 model: Qwen/Qwen2.5-7B-Instruct
-revision: null
+revision: a09a35458c702b33eeacc393d103063234e8bc28
 precision: bf16
 gpu_mem_gib: 9.0
 reg_coeff: 10.0
@@ -15,5 +15,14 @@ datasets:
 seed_lr: 42
 limit: null
 judge: null
+layers_swept: 0-28
+selected_layer: 18
+detect_padding_qwen_left_right:  # Apollo's per-dataset padding mapped to Qwen
+  repe_honesty__plain: [0, 0]
+  roleplaying__plain: [0, 0]
+  insider_trading__upscale: [0, 1]
+  insider_trading_doubledown__upscale: [0, 1]
+  sandbagging_v2__wmdp_mmlu: [0, 1]
+  alpaca__plain: [3, 1]
 gpu: NVIDIA GeForce RTX 5070
 host: cartier

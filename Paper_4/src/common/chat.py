@@ -24,6 +24,13 @@ DEFAULT_PADDING = {"llama": (4, 1), "qwen": (3, 1), "gemma": (4, 1), "mistral": 
 LLAMA_DATE = "26 Jul 2024"
 
 
+def family_pad(family: str, llama_pad: tuple[int, int]) -> tuple[int, int]:
+    """Translate Apollo's per-dataset Llama padding: a side Apollo zeroes stays zero, otherwise
+    use this family's header (left) / end-of-turn (right) token count."""
+    left, right = DEFAULT_PADDING.get(family, (0, 0))
+    return (left if llama_pad[0] else 0, right if llama_pad[1] else 0)
+
+
 def model_family(model_name: str) -> str:
     n = model_name.lower()
     for fam in ("llama", "qwen", "gemma", "mistral"):

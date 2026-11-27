@@ -22,6 +22,8 @@ class Item:
     segments: list[tuple[str, str, bool]]  # (role, content, detect)
     label: str  # honest | deceptive | ambiguous | skip
     meta: dict = field(default_factory=dict)
+    # Apollo's per-dataset detect padding, in Llama tokens (left, right)
+    llama_pad: tuple[int, int] = (4, 1)
 
 
 def _repo():
@@ -39,11 +41,14 @@ def load(partial_id: str, model: str = "prewritten", trim_reasoning: bool = True
         trim_reasoning=trim_reasoning,
         shuffle_upon_init=not partial_id.startswith("repe"),
     )
+    # Padding differs by dataset: roleplaying is 0/0, and base.py zeroes `left` whenever the
+    # reasoning is trimmed (insider trading, sandbagging). Alpaca keeps the 4/1 default.
+    lp = (ds.padding["llama"]["left"], ds.padding["llama"]["right"])
     items = []
     meta = getattr(ds, "metadata", None)
     for i, (dlg, lab) in enumerate(zip(ds.dialogues, ds.labels, strict=True)):
         m = {k: v[i] for k, v in meta.items()} if meta else {}
-        items.append(Item([(x.role, x.content, bool(x.detect)) for x in dlg], lab.value, m))
+        items.append(Item([(x.role, x.content, bool(x.detect)) for x in dlg], lab.value, m, lp))
     return items[:limit] if limit else items
 
 
