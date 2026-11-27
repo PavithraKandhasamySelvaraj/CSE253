@@ -1,0 +1,87 @@
+{
+  "config": {
+    "paper": "P1 Wang et al. 2604.00209",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "dtype": "float16",
+    "alpha": 1.0,
+    "top_k_layers": 5,
+    "seed": 42,
+    "judge": "local:google/gemma-2-9b-it:bf16:temp0",
+    "n_pairs": 100,
+    "n_alpaca_calibration": 1000,
+    "n_alpaca_helpfulness": 200,
+    "n_mmlu": 1000,
+    "device": "mps",
+    "probe_layer": 13,
+    "probe_layer_rule": "max PCA held-out AUROC (probe CV saturated)",
+    "steering_layers": [
+      3,
+      4,
+      16,
+      23,
+      26
+    ]
+  },
+  "detection": {
+    "probe": {
+      "flow_auroc_private_vs_consent": 0.975,
+      "flow_recall_at_1pct_fpr": 0.0,
+      "alpaca_threshold_p99": 0.39058802624062544,
+      "alpaca_fpr_check": 0.01,
+      "dependence_auroc": 0.5347255949490044,
+      "n_dependent_pairs": 71
+    },
+    "baseline_ask_model": {
+      "flow_auroc_private_vs_consent": 0.9999999999999999,
+      "flow_recall_at_1pct_fpr": 1.0,
+      "alpaca_threshold_p99": 0.7634837031364441,
+      "alpaca_fpr_check": 0.009,
+      "dependence_auroc": 0.46915978630403105,
+      "n_dependent_pairs": 71
+    }
+  },
+  "behavior": {
+    "unsteered": {
+      "leak_rate_private": 0.29,
+      "share_rate_consent": 1.0,
+      "over_refusal_consent": 0.0,
+      "flip_rate": 0.71
+    },
+    "ci_alpha_1.0": {
+      "leak_rate_private": 0.51,
+      "share_rate_consent": 0.36,
+      "over_refusal_consent": 0.64,
+      "flip_rate": 0.39
+    }
+  },
+  "utility": {
+    "mmlu_unsteered": 0.647,
+    "mmlu_steered": 0.226,
+    "mmlu_delta": -0.42100000000000004,
+    "alpaca_unsteered": {
+      "helpfulness_mean": 4.85,
+      "helpfulness_std": 0.48733971724044817,
+      "coherence_mean": 4.94,
+      "coherence_std": 0.23748684174075835,
+      "relevance_mean": 4.945,
+      "relevance_std": 0.3767957006124141,
+      "overall_mean": 4.911666666666666,
+      "overall_std": 0.2990308419619027,
+      "num_scored": 200,
+      "num_errors": 0
+    },
+    "alpaca_steered": {
+      "helpfulness_mean": 2.225,
+      "helpfulness_std": 1.5634497113754569,
+      "coherence_mean": 3.595,
+      "coherence_std": 1.3420040983543977,
+      "relevance_mean": 2.745,
+      "relevance_std": 1.7804423607631896,
+      "overall_mean": 2.855,
+      "overall_std": 1.3314893498969074,
+      "num_scored": 200,
+      "num_errors": 0
+    }
+  },
+  "runtime_minutes": 90.7
+}

@@ -1,0 +1,1811 @@
+{
+  "info_type": {
+    "0": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.39269381761550903,
+        0.11380352079868317,
+        0.09513440728187561,
+        0.0730220153927803,
+        0.05970285087823868
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "1": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2732197344303131,
+        0.16032016277313232,
+        0.0964546874165535,
+        0.08659545332193375,
+        0.06880750507116318
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "2": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.20888729393482208,
+        0.13900548219680786,
+        0.11979176849126816,
+        0.08355037868022919,
+        0.0742882788181305
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "3": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.26677989959716797,
+        0.13019035756587982,
+        0.10309720784425735,
+        0.09044071286916733,
+        0.07078390568494797
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "4": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.23516033589839935,
+        0.15656594932079315,
+        0.10049508512020111,
+        0.08018947392702103,
+        0.06329818069934845
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "5": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.21336156129837036,
+        0.18841901421546936,
+        0.09874722361564636,
+        0.08264197409152985,
+        0.07289344817399979
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "6": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2391880303621292,
+        0.15149112045764923,
+        0.10268541425466537,
+        0.0900966227054596,
+        0.07271908968687057
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "7": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.28554919362068176,
+        0.1206807941198349,
+        0.09920037537813187,
+        0.0839216560125351,
+        0.06609691679477692
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "8": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.29614800214767456,
+        0.13223007321357727,
+        0.09413626044988632,
+        0.08621636033058167,
+        0.07273457199335098
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "9": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.29470688104629517,
+        0.14197582006454468,
+        0.09140108525753021,
+        0.08890881389379501,
+        0.0598333477973938
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "10": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.26354455947875977,
+        0.14009849727153778,
+        0.10451154410839081,
+        0.0825032889842987,
+        0.05981695279479027
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "11": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2726161777973175,
+        0.12450007349252701,
+        0.10446946322917938,
+        0.07577907294034958,
+        0.061287056654691696
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "12": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.23475868999958038,
+        0.18727180361747742,
+        0.09167206287384033,
+        0.07586545497179031,
+        0.055501874536275864
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "13": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.41405534744262695,
+        0.16400672495365143,
+        0.07919036597013474,
+        0.0489819273352623,
+        0.03833875432610512
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "14": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5415000915527344,
+        0.14769117534160614,
+        0.06967916339635849,
+        0.03442651033401489,
+        0.031096097081899643
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "15": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5664519667625427,
+        0.13266617059707642,
+        0.06704283505678177,
+        0.03160633519291878,
+        0.031425997614860535
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "16": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5871559977531433,
+        0.1367119699716568,
+        0.06382933259010315,
+        0.03023863211274147,
+        0.026548035442829132
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "17": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6158360838890076,
+        0.13501422107219696,
+        0.06048433482646942,
+        0.027223242446780205,
+        0.024452121928334236
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "18": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6083208918571472,
+        0.14573165774345398,
+        0.05704031512141228,
+        0.028176749125123024,
+        0.024614470079541206
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "19": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5975764393806458,
+        0.1536373645067215,
+        0.05587559565901756,
+        0.02976027876138687,
+        0.025904644280672073
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "20": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5991824269294739,
+        0.15468016266822815,
+        0.05435409024357796,
+        0.0341341570019722,
+        0.02472168765962124
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "21": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6104273796081543,
+        0.15064173936843872,
+        0.05288431793451309,
+        0.03411181643605232,
+        0.024773292243480682
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "22": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6188033223152161,
+        0.14797306060791016,
+        0.05141398310661316,
+        0.03452243283390999,
+        0.024027151986956596
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "23": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6337202191352844,
+        0.14056023955345154,
+        0.04840925335884094,
+        0.03335002809762955,
+        0.022908750921487808
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "24": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6642246842384338,
+        0.1311895102262497,
+        0.04346876218914986,
+        0.031900037080049515,
+        0.020718302577733994
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "25": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6689344048500061,
+        0.12987124919891357,
+        0.043044377118349075,
+        0.030782626941800117,
+        0.01966576650738716
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "26": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6626045107841492,
+        0.12790600955486298,
+        0.04558190330862999,
+        0.030412493273615837,
+        0.019909940659999847
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "27": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6983075141906738,
+        0.11621225625276566,
+        0.038642678409814835,
+        0.02756422944366932,
+        0.01739591173827648
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "28": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6885312795639038,
+        0.11581053584814072,
+        0.039405450224876404,
+        0.027185901999473572,
+        0.017668036743998528
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "29": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.675324559211731,
+        0.11641405522823334,
+        0.0396849699318409,
+        0.02667059376835823,
+        0.019237913191318512
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "30": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6512171626091003,
+        0.11461906880140305,
+        0.04259005934000015,
+        0.027416113764047623,
+        0.02101290412247181
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "31": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6100655198097229,
+        0.1037890613079071,
+        0.06828611344099045,
+        0.03187321871519089,
+        0.023746740072965622
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    }
+  },
+  "recipient": {
+    "0": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.3805009126663208,
+        0.11654026806354523,
+        0.09197839349508286,
+        0.07476308941841125,
+        0.058603089302778244
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "1": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2715032398700714,
+        0.16362237930297852,
+        0.09315264225006104,
+        0.0843576192855835,
+        0.06582947075366974
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "2": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.21399657428264618,
+        0.14148928225040436,
+        0.11083744466304779,
+        0.07877068966627121,
+        0.0740518793463707
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "3": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2519121468067169,
+        0.11865543574094772,
+        0.1126498281955719,
+        0.0854819118976593,
+        0.07576450705528259
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "4": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.21835947036743164,
+        0.15180674195289612,
+        0.11620563268661499,
+        0.07038334757089615,
+        0.07006622850894928
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "5": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.20879307389259338,
+        0.17278023064136505,
+        0.11839797347784042,
+        0.07823719084262848,
+        0.07657553255558014
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "6": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.23855938017368317,
+        0.14489877223968506,
+        0.10281290858983994,
+        0.0929151400923729,
+        0.08086417615413666
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "7": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.28942734003067017,
+        0.12247325479984283,
+        0.09487399458885193,
+        0.0837726816534996,
+        0.07171241194009781
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "8": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.31329724192619324,
+        0.13658936321735382,
+        0.091848224401474,
+        0.08243555575609207,
+        0.06971823424100876
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "9": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.31003138422966003,
+        0.15291038155555725,
+        0.09135690331459045,
+        0.0839923843741417,
+        0.05696174502372742
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "10": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.28080299496650696,
+        0.1514062136411667,
+        0.10430523008108139,
+        0.07859548181295395,
+        0.05887096747756004
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "11": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2906317114830017,
+        0.13188356161117554,
+        0.10468084365129471,
+        0.07328413426876068,
+        0.06417012959718704
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "12": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2505953907966614,
+        0.1854577660560608,
+        0.09835229068994522,
+        0.0762391984462738,
+        0.057097721844911575
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "13": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.41568171977996826,
+        0.17959104478359222,
+        0.07317498326301575,
+        0.05446863919496536,
+        0.03463960811495781
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "14": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5462116003036499,
+        0.15791228413581848,
+        0.06467296183109283,
+        0.03790321573615074,
+        0.02715476043522358
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "15": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5735853910446167,
+        0.14181376993656158,
+        0.06171403452754021,
+        0.03292239084839821,
+        0.028160888701677322
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "16": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5924264788627625,
+        0.14818976819515228,
+        0.056817296892404556,
+        0.031297147274017334,
+        0.02421904169023037
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "17": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6222545504570007,
+        0.14537601172924042,
+        0.053040761500597,
+        0.0287186149507761,
+        0.022658025845885277
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "18": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6150290369987488,
+        0.15624284744262695,
+        0.049093976616859436,
+        0.028976058587431908,
+        0.02512645535171032
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "19": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6040331125259399,
+        0.16475550830364227,
+        0.048362549394369125,
+        0.031136590987443924,
+        0.025715118274092674
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "20": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6057210564613342,
+        0.165887713432312,
+        0.046984799206256866,
+        0.034017398953437805,
+        0.025168197229504585
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "21": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6156281232833862,
+        0.16286467015743256,
+        0.04632440209388733,
+        0.03378916531801224,
+        0.024672722443938255
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "22": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6245163083076477,
+        0.1598045527935028,
+        0.04431256279349327,
+        0.03482826054096222,
+        0.023395080119371414
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "23": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6396604180335999,
+        0.1516379415988922,
+        0.04162753000855446,
+        0.03362700343132019,
+        0.02242150343954563
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "24": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6697638630867004,
+        0.1409132331609726,
+        0.038355760276317596,
+        0.031152838841080666,
+        0.020363932475447655
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "25": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6746096014976501,
+        0.1394450068473816,
+        0.037270501255989075,
+        0.030684636905789375,
+        0.019228508695960045
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "26": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6690187454223633,
+        0.13706520199775696,
+        0.03945690393447876,
+        0.030349573120474815,
+        0.0197148434817791
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "27": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.7036653161048889,
+        0.12444449961185455,
+        0.03391715884208679,
+        0.027216630056500435,
+        0.01708824187517166
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "28": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.694379448890686,
+        0.12368908524513245,
+        0.034944623708724976,
+        0.026762893423438072,
+        0.017172332853078842
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "29": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6817865371704102,
+        0.12371231615543365,
+        0.035321611911058426,
+        0.026437675580382347,
+        0.018417859449982643
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "30": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6585023403167725,
+        0.12170431017875671,
+        0.037288203835487366,
+        0.027898507192730904,
+        0.02021852321922779
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "31": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6230109930038452,
+        0.11215722560882568,
+        0.05225750431418419,
+        0.035503633320331573,
+        0.022654039785265923
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    }
+  },
+  "transmission_principle": {
+    "0": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.34312278032302856,
+        0.1459352970123291,
+        0.09280622005462646,
+        0.08124875277280807,
+        0.06503776460886002
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "1": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2302086502313614,
+        0.19735418260097504,
+        0.10039954632520676,
+        0.094776950776577,
+        0.06732478737831116
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "2": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.1885734647512436,
+        0.17456722259521484,
+        0.10960780084133148,
+        0.0857628881931305,
+        0.0774017944931984
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "3": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.22893521189689636,
+        0.1468183398246765,
+        0.10773160308599472,
+        0.08561448007822037,
+        0.07784640043973923
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "4": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.1974409818649292,
+        0.1670948565006256,
+        0.10643860697746277,
+        0.08445475995540619,
+        0.06510014086961746
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "5": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2031383365392685,
+        0.15605437755584717,
+        0.1278761327266693,
+        0.08743713051080704,
+        0.07767682522535324
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "6": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2087685763835907,
+        0.15438641607761383,
+        0.12456784397363663,
+        0.08980097621679306,
+        0.08111189305782318
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "7": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2456357330083847,
+        0.1305263340473175,
+        0.11046889424324036,
+        0.09713028371334076,
+        0.07334292680025101
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "8": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2553781270980835,
+        0.13926075398921967,
+        0.12966877222061157,
+        0.08586724102497101,
+        0.07334975898265839
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "9": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.25283652544021606,
+        0.14342333376407623,
+        0.12655089795589447,
+        0.0928833857178688,
+        0.06260299682617188
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "10": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.2262243777513504,
+        0.14246928691864014,
+        0.12022264301776886,
+        0.09900175780057907,
+        0.06809662282466888
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "11": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.23693639039993286,
+        0.12881913781166077,
+        0.11041411012411118,
+        0.09883806109428406,
+        0.06933659315109253
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "12": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.208536759018898,
+        0.17692409455776215,
+        0.1201847717165947,
+        0.08708621561527252,
+        0.05709201097488403
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "13": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.3943142592906952,
+        0.15943805873394012,
+        0.10003850609064102,
+        0.059826090931892395,
+        0.03684043884277344
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "14": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.513211727142334,
+        0.15973730385303497,
+        0.08438237011432648,
+        0.04198315739631653,
+        0.028358422219753265
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "15": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5414136052131653,
+        0.13869117200374603,
+        0.08713600784540176,
+        0.03475664183497429,
+        0.02885317988693714
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "16": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5604577660560608,
+        0.1387949138879776,
+        0.08544060587882996,
+        0.036072585731744766,
+        0.02547026053071022
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "17": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5853338241577148,
+        0.13831965625286102,
+        0.08156980574131012,
+        0.03476778417825699,
+        0.024575168266892433
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "18": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5794050097465515,
+        0.1484828144311905,
+        0.07541503757238388,
+        0.03617311641573906,
+        0.02824343554675579
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "19": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5684195160865784,
+        0.15821778774261475,
+        0.07265761494636536,
+        0.039508718997240067,
+        0.028537387028336525
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "20": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5708176493644714,
+        0.1608605682849884,
+        0.06969479471445084,
+        0.041161321103572845,
+        0.028330828994512558
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "21": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.579342782497406,
+        0.15961921215057373,
+        0.0675778016448021,
+        0.04181548207998276,
+        0.027358870953321457
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "22": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5876784324645996,
+        0.15748634934425354,
+        0.06489051133394241,
+        0.04309340566396713,
+        0.02582445926964283
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "23": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6029621362686157,
+        0.15037566423416138,
+        0.06061890348792076,
+        0.041322942823171616,
+        0.02552730031311512
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "24": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6314195990562439,
+        0.1437567174434662,
+        0.05479578301310539,
+        0.0392109751701355,
+        0.02318526618182659
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "25": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6376352906227112,
+        0.14138394594192505,
+        0.054335299879312515,
+        0.03805597126483917,
+        0.021843569353222847
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "26": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6306033134460449,
+        0.1402367353439331,
+        0.057390764355659485,
+        0.03718830272555351,
+        0.022160997614264488
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "27": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6669342517852783,
+        0.1284457892179489,
+        0.04947054758667946,
+        0.03402651473879814,
+        0.01954619586467743
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "28": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6578183770179749,
+        0.12776680290699005,
+        0.0504717119038105,
+        0.03325487673282623,
+        0.019277898594737053
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "29": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6452521085739136,
+        0.12799300253391266,
+        0.049911800771951675,
+        0.033120427280664444,
+        0.019933650270104408
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "30": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.6219659447669983,
+        0.12377990037202835,
+        0.05330047383904457,
+        0.034325722604990005,
+        0.022426066920161247
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    },
+    "31": {
+      "probe_accuracy": 1.0,
+      "pca_variance_explained": [
+        0.5849238634109497,
+        0.116422139108181,
+        0.06734005361795425,
+        0.04368017986416817,
+        0.026671024039387703
+      ],
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    }
+  },
+  "cosine_similarity": {
+    "layer": 0,
+    "parameters": [
+      "info_type",
+      "recipient",
+      "transmission_principle"
+    ],
+    "matrix": [
+      [
+        1.0000001192092896,
+        0.9913148283958435,
+        0.9957298040390015
+      ],
+      [
+        0.9913148283958435,
+        1.0,
+        0.989025890827179
+      ],
+      [
+        0.9957298040390015,
+        0.989025890827179,
+        1.0
+      ]
+    ]
+  },
+  "permutation_test": {
+    "null_distribution_mean": 0.998846312681834,
+    "null_distribution_std": 0.000653270056382434,
+    "real_mean_abs_cosine": 0.9920235077540079,
+    "p_value": 0.0,
+    "effect_size": 10.4440803021161,
+    "n_permutations": 1000,
+    "analysis_layer": 24
+  },
+  "summary": {
+    "info_type": {
+      "best_layer": 0,
+      "best_probe_accuracy": 1.0,
+      "pca_variance_explained_pc1": 0.39269381761550903,
+      "n_classes": 5,
+      "class_names": [
+        "employment",
+        "financial",
+        "health",
+        "location",
+        "relationships"
+      ]
+    },
+    "recipient": {
+      "best_layer": 0,
+      "best_probe_accuracy": 1.0,
+      "pca_variance_explained_pc1": 0.3805009126663208,
+      "n_classes": 5,
+      "class_names": [
+        "a consulting specialist",
+        "a family member",
+        "a journalist",
+        "a stranger",
+        "an employer"
+      ]
+    },
+    "transmission_principle": {
+      "best_layer": 0,
+      "best_probe_accuracy": 1.0,
+      "pca_variance_explained_pc1": 0.34312278032302856,
+      "n_classes": 5,
+      "class_names": [
+        "consent",
+        "legal_obligation",
+        "need_to_know",
+        "no_consent",
+        "no_need"
+      ]
+    }
+  }
+}

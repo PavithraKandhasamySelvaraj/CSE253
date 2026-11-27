@@ -1,0 +1,70 @@
+paper: P1 Wang, Xiong & Shu, arXiv 2604.00209
+model:
+  id: Qwen/Qwen2.5-7B-Instruct
+  revision: a09a35458c702b33eeacc393d103063234e8bc28
+  dtype: float16
+  device: mps
+code:
+  upstream: https://github.com/wang2226/CI-Steering
+  upstream_commit: 5c5edc3261f9cdf11319b47107894e08b2b40c60
+  local_fixes: patches/ci-steering-fixes.patch
+judge:
+  model: google/gemma-2-9b-it
+  revision: 11c9b309abf73637e4b6f9a3fa1e92e615547819
+  precision: bf16
+  temperature: 0
+  backend: local (benchmark_dataset/judge.py via judge_shim.py)
+seed: 42
+generation:
+  decoding: greedy (temperature 0)
+  max_new_tokens: 256
+stage1:
+  reader: probe (paper's default)
+  steering_layers:
+  - 4
+  - 8
+  - 12
+  - 17
+  - 18
+  top_k_layers: 5
+  alphas:
+  - 0.5
+  - 1.0
+  - 2.0
+  - 4.0
+  synthetic:
+    n_eval: 200
+  confaide:
+    set: CONFAIDE Tier 3
+    n_scenarios: 270
+  privaci: skipped (not in the common benchmark)
+  utility:
+    alphas:
+    - 0
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 3.0
+    n_alpaca: 200
+    n_over_refusal: 50
+  summaries: stage1/
+benchmark:
+  alpha: 1.0
+  top_k_layers: 5
+  probe_layer: 17
+  probe_layer_rule: max PCA held-out AUROC (probe CV saturated)
+  steering_layers:
+  - 4
+  - 8
+  - 12
+  - 17
+  - 18
+  n_pairs: 100
+  n_alpaca_calibration: 1000
+  n_alpaca_helpfulness: 200
+  n_mmlu: 1000
+results:
+  benchmark: metrics.json
+  per_item_scores: scores.json
+status: preliminary until judge validation passes (NOTES.md)
