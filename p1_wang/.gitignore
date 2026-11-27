@@ -1,0 +1,14 @@
+.venv/
+third_party/
+data/
+configs
+outputs/
+logs/
+results/*/judge_cache/
+results/*/generations_*.jsonl
+__pycache__/
+# Judge validation: hidden key and label sheets stay out of git until both
+# labelers are done (the key is regenerable: build_label_set.py, seed 253).
+judge_validation/**/_key/
+judge_validation/_key/
+judge_validation/**/*.xlsx

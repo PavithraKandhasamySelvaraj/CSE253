@@ -1,0 +1,87 @@
+{
+  "config": {
+    "paper": "P1 Wang et al. 2604.00209",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "dtype": "float16",
+    "alpha": 1.0,
+    "top_k_layers": 5,
+    "seed": 42,
+    "judge": "local:google/gemma-2-9b-it:bf16:temp0",
+    "n_pairs": 100,
+    "n_alpaca_calibration": 1000,
+    "n_alpaca_helpfulness": 200,
+    "n_mmlu": 1000,
+    "device": "mps",
+    "probe_layer": 17,
+    "probe_layer_rule": "max PCA held-out AUROC (probe CV saturated)",
+    "steering_layers": [
+      4,
+      8,
+      12,
+      17,
+      18
+    ]
+  },
+  "detection": {
+    "probe": {
+      "flow_auroc_private_vs_consent": 0.7879,
+      "flow_recall_at_1pct_fpr": 0.0,
+      "alpaca_threshold_p99": 0.8143901639965757,
+      "alpaca_fpr_check": 0.01,
+      "dependence_auroc": 0.6270574066639903,
+      "n_dependent_pairs": 53
+    },
+    "baseline_ask_model": {
+      "flow_auroc_private_vs_consent": 0.9951,
+      "flow_recall_at_1pct_fpr": 0.67,
+      "alpaca_threshold_p99": 0.9999985694885254,
+      "alpaca_fpr_check": 0.01,
+      "dependence_auroc": 0.653552790044159,
+      "n_dependent_pairs": 53
+    }
+  },
+  "behavior": {
+    "unsteered": {
+      "leak_rate_private": 0.45,
+      "share_rate_consent": 0.94,
+      "over_refusal_consent": 0.06000000000000005,
+      "flip_rate": 0.53
+    },
+    "ci_alpha_1.0": {
+      "leak_rate_private": 0.46,
+      "share_rate_consent": 0.87,
+      "over_refusal_consent": 0.13,
+      "flip_rate": 0.47
+    }
+  },
+  "utility": {
+    "mmlu_unsteered": 0.71,
+    "mmlu_steered": 0.72,
+    "mmlu_delta": 0.010000000000000009,
+    "alpaca_unsteered": {
+      "helpfulness_mean": 4.885,
+      "helpfulness_std": 0.36300826436873307,
+      "coherence_mean": 4.945,
+      "coherence_std": 0.24894778569009204,
+      "relevance_mean": 4.995,
+      "relevance_std": 0.07053367989832944,
+      "overall_mean": 4.941666666666666,
+      "overall_std": 0.18390063742261595,
+      "num_scored": 200,
+      "num_errors": 0
+    },
+    "alpaca_steered": {
+      "helpfulness_mean": 4.865,
+      "helpfulness_std": 0.4083809496046552,
+      "coherence_mean": 4.92,
+      "coherence_std": 0.33704599092705423,
+      "relevance_mean": 4.99,
+      "relevance_std": 0.1410673597966589,
+      "overall_mean": 4.925,
+      "overall_std": 0.2591385300911036,
+      "num_scored": 200,
+      "num_errors": 0
+    }
+  },
+  "runtime_minutes": 132.8
+}
