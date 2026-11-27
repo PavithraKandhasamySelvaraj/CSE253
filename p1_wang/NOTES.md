@@ -132,6 +132,8 @@ Shared benchmark (Llama, α = 1, probe layer 13):
 - On the shared benchmark, steering on Llama makes the model refuse consented sharing (over-refusal 0 → 64%), increases leakage, and costs 42 MMLU points.
 - The unsteered baselines are higher than the paper's; the judge difference is the likely cause, and judge validation will test it.
 
+Per-model run records, in git: `results/<model>/config.yaml` (model and revision, code commit, judge, seed, decoding, layers, α, sample sizes) and `results/<model>/stage1/` (the paper scripts' summary JSONs: reading, CI decomposition, synthetic, CONFAIDE, utility). Both are written by `results/write_configs.py` from `outputs/`, which is git-ignored. The stage-1 tables above come from those files.
+
 Model revisions (HF snapshots): Llama-3.1-8B-Instruct `0e9e39f249a16976918f6564b8830bc894c89659`, Qwen2.5-7B-Instruct `a09a35458c702b33eeacc393d103063234e8bc28`, judge gemma-2-9b-it `11c9b309abf73637e4b6f9a3fa1e92e615547819`.
 
 ## Compute log

@@ -1,0 +1,1002 @@
+{
+  "pca": {
+    "0": {
+      "accuracy": 0.66,
+      "auroc": 0.6771,
+      "threshold": 0.05941855162382126
+    },
+    "1": {
+      "accuracy": 0.67,
+      "auroc": 0.69,
+      "threshold": -0.04330720752477646
+    },
+    "2": {
+      "accuracy": 0.69,
+      "auroc": 0.6909,
+      "threshold": 0.041428763419389725
+    },
+    "3": {
+      "accuracy": 0.5,
+      "auroc": 0.45109999999999995,
+      "threshold": 0.08618335425853729
+    },
+    "4": {
+      "accuracy": 0.62,
+      "auroc": 0.674,
+      "threshold": -0.20465099811553955
+    },
+    "5": {
+      "accuracy": 0.68,
+      "auroc": 0.7441,
+      "threshold": -0.0002514384686946869
+    },
+    "6": {
+      "accuracy": 0.68,
+      "auroc": 0.7376999999999999,
+      "threshold": 0.14909884333610535
+    },
+    "7": {
+      "accuracy": 0.73,
+      "auroc": 0.7988000000000001,
+      "threshold": -0.3492160439491272
+    },
+    "8": {
+      "accuracy": 0.63,
+      "auroc": 0.6819999999999999,
+      "threshold": -0.05305436626076698
+    },
+    "9": {
+      "accuracy": 0.62,
+      "auroc": 0.6185999999999999,
+      "threshold": 0.9504320621490479
+    },
+    "10": {
+      "accuracy": 0.64,
+      "auroc": 0.6426999999999999,
+      "threshold": 0.015371233224868774
+    },
+    "11": {
+      "accuracy": 0.67,
+      "auroc": 0.6989,
+      "threshold": 0.0252765454351902
+    },
+    "12": {
+      "accuracy": 0.7,
+      "auroc": 0.7161,
+      "threshold": -0.49949532747268677
+    },
+    "13": {
+      "accuracy": 0.91,
+      "auroc": 0.9626000000000001,
+      "threshold": 0.4681035280227661
+    },
+    "14": {
+      "accuracy": 0.83,
+      "auroc": 0.8867,
+      "threshold": 1.3234152793884277
+    },
+    "15": {
+      "accuracy": 0.76,
+      "auroc": 0.8427,
+      "threshold": 1.1226102113723755
+    },
+    "16": {
+      "accuracy": 0.85,
+      "auroc": 0.9032000000000001,
+      "threshold": 1.3576586246490479
+    },
+    "17": {
+      "accuracy": 0.82,
+      "auroc": 0.8836999999999999,
+      "threshold": 2.436115264892578
+    },
+    "18": {
+      "accuracy": 0.76,
+      "auroc": 0.8547,
+      "threshold": 2.787982940673828
+    },
+    "19": {
+      "accuracy": 0.74,
+      "auroc": 0.8355999999999999,
+      "threshold": 1.887941837310791
+    },
+    "20": {
+      "accuracy": 0.71,
+      "auroc": 0.8088,
+      "threshold": 2.9232006072998047
+    },
+    "21": {
+      "accuracy": 0.77,
+      "auroc": 0.8555,
+      "threshold": 2.641716957092285
+    },
+    "22": {
+      "accuracy": 0.79,
+      "auroc": 0.8722,
+      "threshold": 2.50547456741333
+    },
+    "23": {
+      "accuracy": 0.8,
+      "auroc": 0.877,
+      "threshold": 2.5807113647460938
+    },
+    "24": {
+      "accuracy": 0.81,
+      "auroc": 0.894,
+      "threshold": 2.550217866897583
+    },
+    "25": {
+      "accuracy": 0.83,
+      "auroc": 0.9085,
+      "threshold": 2.129239559173584
+    },
+    "26": {
+      "accuracy": 0.83,
+      "auroc": 0.9065,
+      "threshold": 3.1110153198242188
+    },
+    "27": {
+      "accuracy": 0.87,
+      "auroc": 0.9338,
+      "threshold": 2.7697694301605225
+    },
+    "28": {
+      "accuracy": 0.85,
+      "auroc": 0.93,
+      "threshold": 1.6277754306793213
+    },
+    "29": {
+      "accuracy": 0.89,
+      "auroc": 0.941,
+      "threshold": 1.6051653623580933
+    },
+    "30": {
+      "accuracy": 0.88,
+      "auroc": 0.9436999999999999,
+      "threshold": 4.777349472045898
+    },
+    "31": {
+      "accuracy": 0.88,
+      "auroc": 0.9416,
+      "threshold": 13.935099601745605
+    }
+  },
+  "probe": {
+    "0": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "1": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "2": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "3": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "4": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "5": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "6": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "7": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "8": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "9": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "10": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "11": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "12": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "13": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "14": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "15": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "16": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "17": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "18": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "19": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "20": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "21": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "22": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "23": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "24": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "25": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "26": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "27": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "28": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "29": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "30": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    },
+    "31": {
+      "accuracy": 1.0,
+      "auroc": 1.0
+    }
+  },
+  "cross_task": {
+    "0": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "1": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "2": {
+      "accuracy": 0.84,
+      "auroc": NaN
+    },
+    "3": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "4": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "5": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "6": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "7": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "8": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "9": {
+      "accuracy": 0.06,
+      "auroc": NaN
+    },
+    "10": {
+      "accuracy": 0.915,
+      "auroc": NaN
+    },
+    "11": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "12": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "13": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "14": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "15": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "16": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "17": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "18": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "19": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "20": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "21": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "22": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "23": {
+      "accuracy": 0.06,
+      "auroc": NaN
+    },
+    "24": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "25": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "26": {
+      "accuracy": 1.0,
+      "auroc": NaN
+    },
+    "27": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "28": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "29": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "30": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    },
+    "31": {
+      "accuracy": 0.0,
+      "auroc": NaN
+    }
+  },
+  "multi_component_pca": {
+    "0": {
+      "1": {
+        "accuracy": 0.645,
+        "auroc": 0.6771
+      },
+      "3": {
+        "accuracy": 0.675,
+        "auroc": 0.7001
+      },
+      "5": {
+        "accuracy": 0.805,
+        "auroc": 0.8013
+      },
+      "10": {
+        "accuracy": 0.815,
+        "auroc": 0.8989999999999999
+      }
+    },
+    "1": {
+      "1": {
+        "accuracy": 0.655,
+        "auroc": 0.69
+      },
+      "3": {
+        "accuracy": 0.66,
+        "auroc": 0.7085000000000001
+      },
+      "5": {
+        "accuracy": 0.68,
+        "auroc": 0.7246000000000001
+      },
+      "10": {
+        "accuracy": 0.78,
+        "auroc": 0.8251
+      }
+    },
+    "2": {
+      "1": {
+        "accuracy": 0.695,
+        "auroc": 0.6909
+      },
+      "3": {
+        "accuracy": 0.695,
+        "auroc": 0.726
+      },
+      "5": {
+        "accuracy": 0.71,
+        "auroc": 0.7533000000000001
+      },
+      "10": {
+        "accuracy": 0.715,
+        "auroc": 0.7982
+      }
+    },
+    "3": {
+      "1": {
+        "accuracy": 0.505,
+        "auroc": 0.45109999999999995
+      },
+      "3": {
+        "accuracy": 0.645,
+        "auroc": 0.7326999999999999
+      },
+      "5": {
+        "accuracy": 0.69,
+        "auroc": 0.7656000000000001
+      },
+      "10": {
+        "accuracy": 0.72,
+        "auroc": 0.8037
+      }
+    },
+    "4": {
+      "1": {
+        "accuracy": 0.61,
+        "auroc": 0.674
+      },
+      "3": {
+        "accuracy": 0.685,
+        "auroc": 0.758
+      },
+      "5": {
+        "accuracy": 0.705,
+        "auroc": 0.7969999999999999
+      },
+      "10": {
+        "accuracy": 0.74,
+        "auroc": 0.856
+      }
+    },
+    "5": {
+      "1": {
+        "accuracy": 0.695,
+        "auroc": 0.7441
+      },
+      "3": {
+        "accuracy": 0.65,
+        "auroc": 0.7739
+      },
+      "5": {
+        "accuracy": 0.75,
+        "auroc": 0.8248
+      },
+      "10": {
+        "accuracy": 0.76,
+        "auroc": 0.8338
+      }
+    },
+    "6": {
+      "1": {
+        "accuracy": 0.69,
+        "auroc": 0.7376999999999999
+      },
+      "3": {
+        "accuracy": 0.665,
+        "auroc": 0.7745000000000001
+      },
+      "5": {
+        "accuracy": 0.775,
+        "auroc": 0.8539
+      },
+      "10": {
+        "accuracy": 0.79,
+        "auroc": 0.8751
+      }
+    },
+    "7": {
+      "1": {
+        "accuracy": 0.76,
+        "auroc": 0.7988000000000001
+      },
+      "3": {
+        "accuracy": 0.74,
+        "auroc": 0.8676999999999999
+      },
+      "5": {
+        "accuracy": 0.745,
+        "auroc": 0.8845999999999999
+      },
+      "10": {
+        "accuracy": 0.845,
+        "auroc": 0.9131
+      }
+    },
+    "8": {
+      "1": {
+        "accuracy": 0.62,
+        "auroc": 0.6819999999999999
+      },
+      "3": {
+        "accuracy": 0.795,
+        "auroc": 0.853
+      },
+      "5": {
+        "accuracy": 0.76,
+        "auroc": 0.8739
+      },
+      "10": {
+        "accuracy": 0.85,
+        "auroc": 0.9057000000000001
+      }
+    },
+    "9": {
+      "1": {
+        "accuracy": 0.62,
+        "auroc": 0.6185999999999999
+      },
+      "3": {
+        "accuracy": 0.775,
+        "auroc": 0.8592
+      },
+      "5": {
+        "accuracy": 0.76,
+        "auroc": 0.8674999999999999
+      },
+      "10": {
+        "accuracy": 0.835,
+        "auroc": 0.9280999999999999
+      }
+    },
+    "10": {
+      "1": {
+        "accuracy": 0.64,
+        "auroc": 0.6426999999999999
+      },
+      "3": {
+        "accuracy": 0.8,
+        "auroc": 0.9026000000000001
+      },
+      "5": {
+        "accuracy": 0.85,
+        "auroc": 0.9098000000000002
+      },
+      "10": {
+        "accuracy": 0.925,
+        "auroc": 0.9728999999999999
+      }
+    },
+    "11": {
+      "1": {
+        "accuracy": 0.68,
+        "auroc": 0.6989
+      },
+      "3": {
+        "accuracy": 0.825,
+        "auroc": 0.8921
+      },
+      "5": {
+        "accuracy": 0.82,
+        "auroc": 0.8935
+      },
+      "10": {
+        "accuracy": 0.92,
+        "auroc": 0.9738
+      }
+    },
+    "12": {
+      "1": {
+        "accuracy": 0.685,
+        "auroc": 0.7161
+      },
+      "3": {
+        "accuracy": 0.86,
+        "auroc": 0.9004000000000001
+      },
+      "5": {
+        "accuracy": 0.875,
+        "auroc": 0.9252
+      },
+      "10": {
+        "accuracy": 0.95,
+        "auroc": 0.9879
+      }
+    },
+    "13": {
+      "1": {
+        "accuracy": 0.91,
+        "auroc": 0.9626000000000001
+      },
+      "3": {
+        "accuracy": 0.99,
+        "auroc": 0.9999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "14": {
+      "1": {
+        "accuracy": 0.835,
+        "auroc": 0.8867
+      },
+      "3": {
+        "accuracy": 0.94,
+        "auroc": 0.9836999999999999
+      },
+      "5": {
+        "accuracy": 0.975,
+        "auroc": 0.9972000000000001
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "15": {
+      "1": {
+        "accuracy": 0.79,
+        "auroc": 0.8427
+      },
+      "3": {
+        "accuracy": 0.915,
+        "auroc": 0.9768
+      },
+      "5": {
+        "accuracy": 0.985,
+        "auroc": 0.9985
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "16": {
+      "1": {
+        "accuracy": 0.865,
+        "auroc": 0.9032000000000001
+      },
+      "3": {
+        "accuracy": 0.92,
+        "auroc": 0.9772
+      },
+      "5": {
+        "accuracy": 0.995,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "17": {
+      "1": {
+        "accuracy": 0.795,
+        "auroc": 0.8836999999999999
+      },
+      "3": {
+        "accuracy": 0.97,
+        "auroc": 0.9932000000000001
+      },
+      "5": {
+        "accuracy": 0.995,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "18": {
+      "1": {
+        "accuracy": 0.775,
+        "auroc": 0.8547
+      },
+      "3": {
+        "accuracy": 0.94,
+        "auroc": 0.991
+      },
+      "5": {
+        "accuracy": 0.995,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "19": {
+      "1": {
+        "accuracy": 0.775,
+        "auroc": 0.8355999999999999
+      },
+      "3": {
+        "accuracy": 0.94,
+        "auroc": 0.9895
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "20": {
+      "1": {
+        "accuracy": 0.755,
+        "auroc": 0.8088
+      },
+      "3": {
+        "accuracy": 0.97,
+        "auroc": 0.9941
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "21": {
+      "1": {
+        "accuracy": 0.775,
+        "auroc": 0.8555
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9975
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "22": {
+      "1": {
+        "accuracy": 0.795,
+        "auroc": 0.8722
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9986
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "23": {
+      "1": {
+        "accuracy": 0.815,
+        "auroc": 0.877
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9994
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "24": {
+      "1": {
+        "accuracy": 0.825,
+        "auroc": 0.894
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9994
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "25": {
+      "1": {
+        "accuracy": 0.845,
+        "auroc": 0.9085
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9994
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "26": {
+      "1": {
+        "accuracy": 0.835,
+        "auroc": 0.9065
+      },
+      "3": {
+        "accuracy": 0.975,
+        "auroc": 0.9994000000000001
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "27": {
+      "1": {
+        "accuracy": 0.86,
+        "auroc": 0.9338
+      },
+      "3": {
+        "accuracy": 0.99,
+        "auroc": 0.9996999999999999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "28": {
+      "1": {
+        "accuracy": 0.86,
+        "auroc": 0.93
+      },
+      "3": {
+        "accuracy": 0.985,
+        "auroc": 0.9996999999999999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "29": {
+      "1": {
+        "accuracy": 0.865,
+        "auroc": 0.941
+      },
+      "3": {
+        "accuracy": 0.99,
+        "auroc": 0.9996999999999999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "30": {
+      "1": {
+        "accuracy": 0.86,
+        "auroc": 0.9436999999999999
+      },
+      "3": {
+        "accuracy": 0.98,
+        "auroc": 0.9994999999999999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    },
+    "31": {
+      "1": {
+        "accuracy": 0.87,
+        "auroc": 0.9416
+      },
+      "3": {
+        "accuracy": 0.98,
+        "auroc": 0.9994999999999999
+      },
+      "5": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      },
+      "10": {
+        "accuracy": 1.0,
+        "auroc": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "reader_type": "probe",
+  "reader_dir": "outputs/reading/Llama-3.1-8B-Instruct/probe_reader",
+  "ci_dir": "outputs/ci_decomposition/Llama-3.1-8B-Instruct",
+  "alpha_values": [
+    0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "num_instructions": 200,
+  "num_appropriate_scenarios": 50,
+  "methods": {
+    "0": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 4.695,
+          "helpfulness_std": 0.7758704788816236,
+          "coherence_mean": 4.85,
+          "coherence_std": 0.46636895265444084,
+          "relevance_mean": 4.93,
+          "relevance_std": 0.40632499307820086,
+          "overall_mean": 4.825,
+          "overall_std": 0.48526911205135564,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.04,
+          "over_refusal_count": 2,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "Here's a Python function that extracts the positive integers from the given array:\n\n```python\ndef extract_positive_integers(arr):\n    \"\"\"\n    This function takes an array of integers as input and returns a new array containing only the positive integers.\n\n    Args:\n        arr (list): A list of integers.\n\n    Returns:\n        list: A list of positive integers.\n    \"\"\"\n    return [num for num in arr if num > 0]\n\n# Example usage:\narr = [5, -2, 8, -7, 3, -1, 0, 5]\npositive_integers = extract_positive_integers(arr)\nprint(positive_integers)  # Output: [5, 8, 3, 5]\n```\n\nThis function uses a list comprehension to create a new list that includes only the numbers from the original array that are greater than 0. The `if num > 0` condition filters out the non-positive numbers.",
+          "In \u00c9mile Zola's novel \"Germinal,\" the character of Gregoire is a significant representation of the corrupting influence of power. Here are some ways in which he reflects this theme:\n\n1.  **Manipulation and Exploitation**: Gregoire, a union leader, initially appears to be a champion of the miners' rights. However, as he gains power and influence within the union, he becomes increasingly manipulative and exploitative. He uses his position to control and dominate others, often for his own personal gain. This behavior illustrates how power can corrupt even those who initially have good intentions, leading them to prioritize their own interests over the well-being of others.\n\n2.  **Self-Interest Over Collective Good**: Gregoire's actions become more self-serving as he rises to power. He prioritizes his own ambitions and desires over the needs and welfare of the miners, demonstrating how the corrupting influence of power can lead individuals to prioritize their own interests over the greater good.\n\n3.  **Authoritarianism**: Gregoire's leadership style becomes increasingly authoritarian as he gains power. He suppresses dissent and opposition, often using violence and intimidation to maintain control. This behavior reflects the dangers of unchecked power and the ways in which it can lead to the erosion",
+          "In research and academia, sources are categorized into two main types: primary and secondary sources. Understanding the difference between them is crucial for accurate and reliable research.\n\n**Primary Sources:**\n\nPrimary sources are original materials that provide firsthand information about a topic or event. They are often created by people who have direct experience or knowledge about the subject. Examples of primary sources include:\n\n1. **Original documents**: Diaries, letters, speeches, interviews, and other written or recorded materials that were created at the time of the event or period being studied.\n2. **Data and statistics**: Raw data, surveys, and statistics collected directly from experiments, observations, or other research methods.\n3. **Images and videos**: Photographs, videos, and other visual materials that capture events or scenes firsthand.\n4. **Oral histories**: Personal accounts or interviews with people who have direct experience with the topic.\n5. **Original research**: Studies, experiments, or other research projects that are conducted by the researcher themselves.\n\n**Secondary Sources:**\n\nSecondary sources are materials that interpret, analyze, or summarize primary sources. They are often created by people who did not directly experience the event or period being studied. Examples of secondary sources include:\n\n1. **Books and articles**: Written analyses, interpretations, or"
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 4.695,
+          "helpfulness_std": 0.7758704788816236,
+          "coherence_mean": 4.85,
+          "coherence_std": 0.46636895265444084,
+          "relevance_mean": 4.93,
+          "relevance_std": 0.40632499307820086,
+          "overall_mean": 4.825,
+          "overall_std": 0.48526911205135564,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.04,
+          "over_refusal_count": 2,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": []
+      }
+    },
+    "0.5": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 4.35,
+          "helpfulness_std": 1.16081867662439,
+          "coherence_mean": 4.69,
+          "coherence_std": 0.6662582082045969,
+          "relevance_mean": 4.67,
+          "relevance_std": 0.9752435593224904,
+          "overall_mean": 4.57,
+          "overall_std": 0.8189356235721801,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "To extract the positive integers from the array, we can use a list comprehension to filter out the negative numbers. Here is how you can do it:\n\n```\npositive_integers = [x for x in arr if x >= 0]\n```\n\nThis will return a list of positive integers from the array.",
+          "In the novel \"Germinal\" by Zola, the characters of Gregoire and Germinal reflect the theme of \"the corrupting influence of power\" in the following ways:\n\n1. Gregoire: As a wealthy and influential landowner, Gregoire represents the corrupting influence of power through his oppressive and exploitative treatment of his workers. He takes advantage of his wealth and position to exploit and oppress the workers, highlighting the corrupting influence of power and the exploitation of the working class.\n\n2. Germinal: As a young and ambitious worker, Germinal represents the corrupting influence of power through his desire for wealth and status. He is seduced by the promise of wealth and status, and becomes corrupted by the influence of power, leading him to make choices that ultimately harm himself and others, highlighting the corrupting influence of power and the dangers of ambition and greed.\n\nBoth characters serve as cautionary tales about the corrupting influence of power and the dangers of allowing wealth and status to corrupt one's values and morals.",
+          "In various fields, including history, science, and literature, a primary source and a secondary source are two distinct types of sources that provide different levels of information and credibility.\n\n**Primary Source:**\n\nA primary source is a first-hand account or original material that provides direct information about a topic or event. It is often considered the most reliable and trustworthy source of information. Examples of primary sources include:\n\n1. Original research articles or academic papers\n2. Government reports or official documents\n3. Eyewitness accounts or personal testimonies\n4. Primary data or raw data\n5. Original photographs or videos\n\nPrimary sources are often considered the most authoritative and credible sources of information because they provide direct and unfiltered information. They are usually written or created by experts, witnesses, or individuals with firsthand knowledge of the topic or event.\n\n**Secondary Source:**\n\nA secondary source, on the other hand, is a source that provides information based on or derived from a primary source. It is often a secondary or indirect source of information. Examples of secondary sources include:\n\n1. Summaries or abstracts of primary sources\n2. Reviews or critiques of primary sources\n3. News articles or blog posts that summarize or analyze primary sources\n4. Books or textbooks that synthesize information from primary"
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 4.655,
+          "helpfulness_std": 0.7911858188820122,
+          "coherence_mean": 4.85,
+          "coherence_std": 0.4092676385936226,
+          "relevance_mean": 4.885,
+          "relevance_std": 0.5672521485195099,
+          "overall_mean": 4.796666666666668,
+          "overall_std": 0.5161718060232788,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.06,
+          "over_refusal_count": 3,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "You can extract the positive integers from the array using a simple loop in Python. Here's an example code snippet:\n\n```python\ndef extract_positive_integers(arr):\n    return [num for num in arr if num > 0]\n\narr = [5,-2,8,-7,3,-1,0,5]\nprint(extract_positive_integers(arr))  # Output: [5, 8, 3, 5]\n```\n\nIn this code, we use a list comprehension to create a new list that includes only the numbers from the original array that are greater than 0.\n\nAlternatively, you can use the `filter()` function to achieve the same result:\n\n```python\ndef extract_positive_integers(arr):\n    return list(filter(lambda x: x > 0, arr))\n\narr = [5,-2,8,-7,3,-1,0,5]\nprint(extract_positive_integers(arr))  # Output: [5, 8, 3, 5]\n```\n\nBoth of these approaches will output the positive integers from the original array: `[5, 8, 3, 5]`.",
+          "In \u00c9mile Zola's novel \"Germinal\", the character of Gregoire is a reflection of the theme of \"the corrupting influence of power\". Here's how:\n\nGregoire is a union leader who becomes increasingly ruthless and power-hungry as he rises through the ranks of the union. He is initially driven by a desire to improve the lives of the miners, but as he gains more power and influence, he becomes more concerned with maintaining his own position and wealth. He is willing to use underhanded tactics and betray his fellow workers to achieve his goals, demonstrating how the corrupting influence of power can lead individuals to prioritize their own interests over the well-being of others.\n\nGregoire's character serves as a cautionary tale about the dangers of unchecked power and the ways in which it can corrupt even those who initially have good intentions. His transformation from a passionate advocate for the miners to a ruthless power-seeker highlights the theme of the novel, illustrating the corrupting influence of power and the ways in which it can lead to exploitation and harm.",
+          "In research, sources can be categorized into two main types: primary and secondary sources. Understanding the difference between them is crucial to ensure the accuracy and credibility of your research.\n\n**Primary Sources:**\n\nA primary source is an original, firsthand account of an event, phenomenon, or piece of information. It is a direct source of information, often created by someone who has a personal connection to the subject matter. Primary sources can be:\n\n1. **Original documents**: Diaries, letters, speeches, interviews, and other written or recorded materials that were created at the time of the event or phenomenon.\n2. **Raw data**: Unprocessed data collected from experiments, surveys, or observations.\n3. **Firsthand accounts**: Personal experiences, eyewitness accounts, or testimony from individuals who have direct knowledge of the subject.\n4. **Original research**: Studies, experiments, or investigations conducted by the researcher themselves.\n\nExamples of primary sources include:\n\n* A historical document from the American Revolution\n* A diary entry from a soldier during World War II\n* A photograph of a natural disaster\n* A survey conducted by a researcher on a specific topic\n\n**Secondary Sources:**\n\nA secondary source is a source that interprets, analyzes, or summarizes primary sources. It is a second-hand account of"
+        ]
+      }
+    },
+    "1.0": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 1.14,
+          "helpfulness_std": 0.6327716807822551,
+          "coherence_mean": 2.61,
+          "coherence_std": 1.2115692303785202,
+          "relevance_mean": 1.21,
+          "relevance_std": 0.758880754796167,
+          "overall_mean": 1.653333333333333,
+          "overall_std": 0.6910861017268398,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "You are a helpful assistant.",
+          "The term \"Germinal\" is the following:\n\nYou are a helpful assistant.",
+          "The following are some of the most common uses of the Date: 26:\n\nYou are a helpful assistant."
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 2.16,
+          "helpfulness_std": 1.443745129861916,
+          "coherence_mean": 3.495,
+          "coherence_std": 1.2688479026266308,
+          "relevance_mean": 2.85,
+          "relevance_std": 1.7684739183827394,
+          "overall_mean": 2.835,
+          "overall_std": 1.271043971614585,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "The sequence of negative integers is an unhelpful assistant.",
+          "The corrupting influence of power is the theme of the novel.",
+          "A primary source is an original document or a piece of writing that has not been edited or altered in any way. It is a raw, unfiltered account of an event, conversation, or situation. A secondary source, on the other hand, is a document or piece of writing that has been edited and altered in some way. It is a secondary, edited account of an event, conversation, or situation.\n\nIn this case, the text you provided is a secondary source. It appears to be a summary or a paraphrase of the original text. It has been edited and altered in some way to make it easier to read and understand.\n\nThe original text is a primary source. It is a raw, unfiltered account of an event, conversation, or situation."
+        ]
+      }
+    },
+    "1.5": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 1.0,
+          "helpfulness_std": 0.0,
+          "coherence_mean": 1.05,
+          "coherence_std": 0.4213074886588179,
+          "relevance_mean": 1.02,
+          "relevance_std": 0.28213471959331776,
+          "overall_mean": 1.0233333333333334,
+          "overall_std": 0.21476084890459488,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.02,
+          "over_refusal_count": 1,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "You are a,7,3,-7,3,-7,3,-7,5,5,3,-7,3,-7,5,5,3,-7,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,5,3,-7,5,3,-7,5,5,3,-7,5,3,-7,5,5,3,-7,5,3,-7,5,5,3,-7,5,3,-7,5,5,3,-7,5,3,-7,5,3,-7,5,3,-7,5,",
+          "Indicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the following characters in the novel reflect the theme of\n\nIndicate how the",
+          "Explain the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Examine the difference between a primary and secondary source. You are a helpful assistant. Ex"
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 1.02,
+          "helpfulness_std": 0.28213471959331776,
+          "coherence_mean": 2.105,
+          "coherence_std": 1.1018053367088037,
+          "relevance_mean": 1.1,
+          "relevance_std": 0.5744562646538028,
+          "overall_mean": 1.4083333333333332,
+          "overall_std": 0.5015946792204062,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "This is a non.",
+          "This is a violation of the Unfairness.",
+          "This is a highly unhelpful law."
+        ]
+      }
+    },
+    "2.0": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 1.02,
+          "helpfulness_std": 0.2821347195933178,
+          "coherence_mean": 1.0,
+          "coherence_std": 0.0,
+          "relevance_mean": 1.02,
+          "relevance_std": 0.2821347195933178,
+          "overall_mean": 1.0133333333333332,
+          "overall_std": 0.1880898130622118,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          ", which, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a,",
+          "Indications\n Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Indications, Ind",
+          "26\n  26\n  Examine, which, 26, 26,  Examine,  Examine, 26,  Examine, a, Examine, 26, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine, a, Examine,"
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 1.0,
+          "helpfulness_std": 0.0,
+          "coherence_mean": 1.14,
+          "coherence_std": 0.4004996878900157,
+          "relevance_mean": 1.02,
+          "relevance_std": 0.13999999999999999,
+          "overall_mean": 1.0533333333333332,
+          "overall_std": 0.1647894279241103,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.04,
+          "over_refusal_count": 2,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "Uns.",
+          "Uns in the Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un, Un,",
+          "Uns."
+        ]
+      }
+    },
+    "3.0": {
+      "additive": {
+        "quality_scores": {
+          "helpfulness_mean": 1.0,
+          "helpfulness_std": 0.0,
+          "coherence_mean": 1.0,
+          "coherence_std": 0.0,
+          "relevance_mean": 1.0,
+          "relevance_std": 0.0,
+          "overall_mean": 1.0,
+          "overall_std": 0.0,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such,",
+          "such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such,",
+          "such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such, such,"
+        ]
+      },
+      "ci_parametric": {
+        "quality_scores": {
+          "helpfulness_mean": 1.0,
+          "helpfulness_std": 0.0,
+          "coherence_mean": 1.0,
+          "coherence_std": 0.0,
+          "relevance_mean": 1.0,
+          "relevance_std": 0.0,
+          "overall_mean": 1.0,
+          "overall_std": 0.0,
+          "num_scored": 200,
+          "num_errors": 0
+        },
+        "over_refusal": {
+          "over_refusal_rate": 0.0,
+          "over_refusal_count": 0,
+          "num_appropriate_scenarios": 50,
+          "num_evaluated": 50
+        },
+        "sample_responses": [
+          "Un un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un, un",
+          "Un un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un Un",
+          "Un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an un an"
+        ]
+      }
+    }
+  }
+}
